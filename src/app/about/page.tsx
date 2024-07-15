@@ -3,24 +3,31 @@ import ProfileCard from "@/components/profile-card";
 const members = [
   {
     name: "Jasper Tay",
-    role: "Co-Founder",
+    role: "Founder",
+    description: "",
     imageSrc: "/assets/members/jasper.jpg",
+    profileUrl: "https://linkedin.com/in/jt112233",
   },
   {
-    name: "Isaac Tan?",
-    role: "Co-Founder",
-    imageSrc:
-      "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
+    name: "Isaac",
+    role: "Curriculum",
+    description: "",
+    imageSrc: "/assets/members/isaac.jpg",
+    profileUrl: "#",
   },
   {
     name: "Ivan Dochev",
-    role: "The Yapper",
+    role: "Public Relations",
+    description: "",
     imageSrc: "/assets/members/ivan.jpg",
+    profileUrl: "https://linkedin.com/in/ivan-dochev-961957319",
   },
   {
-    name: "Dennise",
-    role: "Web Bro",
+    name: "Dennise Catolos",
+    role: "Web Developer",
+    description: "",
     imageSrc: "/assets/members/dennise.jpg",
+    profileUrl: "https://linkedin.com/in/dentolos19",
   },
 ];
 
@@ -49,9 +56,9 @@ export default function Page() {
               key={member.name}
               name={member.name}
               role={member.role}
-              description={""}
+              description={member.description}
               src={member.imageSrc}
-              href={"#"}
+              href={member.profileUrl}
             />
           ))}
         </div>
