@@ -4,4 +4,4 @@ We are non-profit organization founded by a group of dedicated students from Nan
 
 # 📜 License
 
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
