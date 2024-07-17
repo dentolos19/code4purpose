@@ -9,8 +9,7 @@ export default function Page() {
           src={"/assets/logo.png"}
           alt={"Logo"}
         />
-        <h1 className={"mb-2 text-2xl font-bold"}>Code4Purpose</h1>
-        <p className={"mb-4"}>
+        <p className={"mt-2 mb-4"}>
           We are a non-profit organization founded by a group of dedicated
           students from Nanyang Polytechnic.
         </p>
@@ -23,7 +22,7 @@ export default function Page() {
             Connect with Us!
           </Link>
           <Link className={"btn btn-sm btn-info"} href={"/about"}>
-            <i className={"fa-solid fa-info"} />
+            <i className={"fa-solid fa-circle-info"} />
             Learn about us!
           </Link>
         </div>
