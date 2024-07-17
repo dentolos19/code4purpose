@@ -16,7 +16,7 @@ export default function RootLayout(
   }>
 ) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="nord">
       <head>
         <link
           rel="apple-touch-icon"

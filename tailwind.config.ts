@@ -6,6 +6,9 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["nord"]
+  }
 };
 
 export default config;
