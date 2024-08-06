@@ -1,14 +1,11 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-  content: [
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+  content: ["./src/app/**/*.{js,ts,jsx,tsx,mdx}", "./src/components/**/*.{js,ts,jsx,tsx,mdx}"],
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["nord"]
-  }
+    themes: ["nord"],
+  },
 };
 
 export default config;
