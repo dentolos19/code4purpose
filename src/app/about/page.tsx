@@ -1,5 +1,5 @@
 import ProfileCard from "@/components/profile-card";
-import members from "@/data/members.json";
+import members from "@/content/data/members.json";
 
 export default function Page() {
   return (

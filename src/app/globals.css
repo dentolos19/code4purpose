@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 main {
-  @apply min-h-full overflow-y-auto;
+  min-height: 100%;
+  overflow-y: auto;
 }
