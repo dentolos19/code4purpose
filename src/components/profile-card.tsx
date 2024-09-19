@@ -1,20 +1,24 @@
 "use client";
 
-import { slugify } from "@/utils";
+import { slugify } from "@/lib/utils";
 import Link from "next/link";
 
-export default function ProfileCard(props: {
+type ProfileCardProps = {
   name: string;
   role: string;
   description: string;
   src: string;
   href: string;
-}) {
+};
+
+export default function ProfileCard(props: ProfileCardProps) {
   const dialogId = slugify(`modal-${slugify(props.name)}`);
+
   const showDialog = () => {
     const dialog = document.getElementById(dialogId) as HTMLDialogElement;
     dialog.showModal();
   };
+
   return (
     <>
       <button

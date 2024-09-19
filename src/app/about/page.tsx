@@ -4,7 +4,7 @@ import members from "@/content/data/members.json";
 export default function Page() {
   return (
     <main>
-      <section className={"h-full grid place-items-center"}>
+      <section className={"h-[80%] grid place-items-center"}>
         <div className={"text-center"}>
           <h1 className={"mb-4 text-4xl font-bold"}>Our Mission</h1>
           <p className={"max-w-3xl"}>
@@ -13,7 +13,7 @@ export default function Page() {
           </p>
         </div>
       </section>
-      <section className={"h-full grid place-items-center"}>
+      <section className={"h-[80%] grid place-items-center"}>
         <div className={"text-center"}>
           <h1 className={"mb-4 text-4xl font-bold"}>Our Vision</h1>
           <p className={"max-w-3xl"}>
@@ -34,8 +34,8 @@ export default function Page() {
               name={member.name}
               role={member.role}
               description={member.description}
-              src={member.imageSrc}
-              href={member.profileUrl}
+              src={member.src}
+              href={member.href}
             />
           ))}
         </div>

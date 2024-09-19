@@ -3,28 +3,28 @@
     "name": "Jasper Tay",
     "role": "Founder",
     "description": "",
-    "imageSrc": "/assets/members/jasper.jpg",
-    "profileUrl": "https://linkedin.com/in/jt112233"
+    "src": "/assets/members/jasper.jpg",
+    "href": "https://linkedin.com/in/jt112233"
   },
   {
     "name": "Isaac",
     "role": "Curriculum",
     "description": "",
-    "imageSrc": "/assets/members/isaac.jpg",
-    "profileUrl": "#"
+    "src": "/assets/members/isaac.jpg",
+    "href": ""
   },
   {
     "name": "Ivan Dochev",
     "role": "Public Relations",
     "description": "",
-    "imageSrc": "/assets/members/ivan.jpg",
-    "profileUrl": "https://linkedin.com/in/ivan-dochev-961957319"
+    "src": "/assets/members/ivan.jpg",
+    "href": "https://linkedin.com/in/ivan-dochev-961957319"
   },
   {
     "name": "Dennise Catolos",
-    "role": "Web Developer",
+    "role": "Operations",
     "description": "",
-    "imageSrc": "https://dennise.me/assets?id=pavatar",
-    "profileUrl": "https://linkedin.com/in/dentolos19"
+    "src": "https://dennise.me/assets/portrait",
+    "href": "https://linkedin.com/in/dentolos19"
   }
 ]
